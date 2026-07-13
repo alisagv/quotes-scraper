@@ -5,6 +5,7 @@ A web scraper built for the practice site [quotes.toscrape.com](https://quotes.t
 ## What it does
 
 The script goes through the site page by page and extracts the following for each quote:
+
 - Text
 - Author
 - Tags
@@ -18,11 +19,16 @@ The results are written to an Excel file (`quotes.xlsx`).
 
 ## Installation
 
+```
 pip install -r requirements.txt
+```
 
 ## Usage
 
+```
 python scraper.py
+```
+
 The script will create `quotes.xlsx` in the project folder.
 
 ## Note
